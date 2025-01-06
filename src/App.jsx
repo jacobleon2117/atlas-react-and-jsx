@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
+import HelpfulResource from "./components/HelpfulResource";
 
 function App() {
   return (
@@ -25,6 +26,21 @@ function App() {
           <li>Super efficent, easy to learn and fast!</li>
           <li>Guarantee stable code</li>
         </ul>
+      </Section>
+
+      <Section title="Helpful resources">
+        <HelpfulResource
+          label="React Official Documentation - Learn React"
+          link="https://react.dev/learn/your-first-component"
+        />
+        <HelpfulResource
+          label="React Event Handling Guide"
+          link="https://react.dev/learn/responding-to-events"
+        />
+        <HelpfulResource
+          label="React Components and Props"
+          link="https://react.dev/learn/your-first-component"
+        />
       </Section>
     </div>
   );
