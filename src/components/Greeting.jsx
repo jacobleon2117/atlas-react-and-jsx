@@ -1,5 +1,5 @@
+import React from "react";
 import Morning from "../assets/day.svg";
-import Afternoon from "../assets/day.svg";
 import Evening from "../assets/evening.svg";
 import Night from "../assets/night.svg";
 
