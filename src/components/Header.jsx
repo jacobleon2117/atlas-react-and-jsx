@@ -3,7 +3,7 @@ import Greeting from "./Greeting";
 import SocialLinks from "./SocialLinks";
 
 const Header = () => {
-  retun(
+  return (
     <nav>
       <Greeting />
       <SocialLinks />
