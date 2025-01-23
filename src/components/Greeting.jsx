@@ -33,8 +33,8 @@ const Greeting = () => {
   const { image, text } = getCurrentTime();
 
   return (
-    <h1 className="greeting">
-      <img src={image} alt="Time of day" />
+    <h1 className="flex items-center font-bold text-xl m-8">
+      <img src={image} alt="Time of day" className="w-[50px]" />
       {text}
     </h1>
   );

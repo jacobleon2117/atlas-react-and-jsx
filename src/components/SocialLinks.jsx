@@ -4,11 +4,12 @@ import GitHub from "../assets/github.svg";
 
 const SocialLinks = () => {
   return (
-    <div className="social-links">
+    <div className="flex">
       <a
         href="https://www.linkedin.com/in/jacobleon02"
         target="_blank"
         rel="noopener noreferrer"
+        className="mr-4"
       >
         <img src={LinkedIn} alt="LinkedIn Profile" />
       </a>

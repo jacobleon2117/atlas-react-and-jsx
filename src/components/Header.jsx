@@ -4,7 +4,7 @@ import SocialLinks from "./SocialLinks";
 
 const Header = () => {
   return (
-    <nav>
+    <nav className="flex justify-between items-center pt-4">
       <Greeting />
       <SocialLinks />
     </nav>

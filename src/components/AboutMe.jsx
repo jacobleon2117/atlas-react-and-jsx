@@ -3,8 +3,12 @@ import headShot from "../assets/head-shot.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="about-me">
-      <img src={headShot} alt="Headshot" />
+    <div className="bg-offwhite text-blue p-8 rounded-[30px] flex items-center m-8">
+      <img
+        src={headShot}
+        alt="Headshot"
+        className="w-[200px] rounded-[30px] mr-8"
+      />
       <p>
         Hi, I'm Jacob Leon! I'm specializing in Full Stack Software Engineering
         at Atlas Tulsa, currently in my fifth trimester. I love working with
